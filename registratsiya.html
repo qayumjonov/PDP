@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./registratsiya.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Registratsiya</title>
+</head>
+<body>
+<!--======================= Site-Header =======================-->
+
+<div class="container-fluid">
+    <div class="site-header" data-aos="fade-up">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="index.html" class="text-decoration-none"><img src="./img/pdp-logo.svg" alt="" width="200px" height="200px" class="logo"></a>
+            </div>
+            <div class="col-md-3">
+                <div class="subtract"><a href="#">
+                    <div class="s">
+                        <div class="subtract-img"></div>
+                        <div class="subtract-img2"></div>
+                        <div class="subtract-img3"></div>
+                    </div>
+                    Kurslarimiz
+                </a></div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="headera">
+                    <a href="https://www.youtube.com/playlist?list=PLqtWXIUeRZDkTZ4eIxoJAZ-iNT3NF5mxy" class="header-a text-decoration-none">Qo'llanma</a>
+                    <a href="#" class="header-a text-decoration-none">Unicorm</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="header-a33"><a href="#" class="header-a3"><img src="./img/right-icon2.png" alt="" width="25px" height="25px">Kirish</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" style="margin-top: 100px;">
+        <div class="registratsiya">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="registratsiya-box">
+                        <div class="card">
+                            <div class="card-header bg-success">
+                                <h3 class="text-light text-center">Registratsiya</h3>
+                            </div>
+                            <div class="card-body">
+                                <form name="myform">
+                                    <label for="firstname">Firstname</label>
+                                    <input type="text" id="firstname" name="firstname" class="form-control my-2" placeholder="Firstname..."/>
+                                    <label for="lastname">Lastname</label>
+                                    <input type="text" name="lastname" id="lastname" class="form-control my-2" placeholder="Lastname..."/>
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" class="form-control my-2" placeholder="Email..."/>
+                                    <label for="age">Age</label>
+                                    <input type="number" name="age" id="age" class="form-control my-2" placeholder="Age.."/>
+                                    <button type="button" class="btn btn-success w-100" onclick="adduser()">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                   <img src="./img/regis.svg" width="100%" height="500px" alt="" class="img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-8">
+                <table class="table table-bordered text-center text-light">
+                    <thead>
+                    <tr>
+                        <th>T/R</th>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody id="studentlist">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/popper.min.js"></script>
+</body>
+</html>

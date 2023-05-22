@@ -1,0 +1,109 @@
+table{
+    background: rgba(0, 128, 0, 0.87);
+    width: 100%;
+}
+button{
+    width: 60px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+.site-header{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+}
+/*.registratsiya{*/
+/*    font-size: 18px;*/
+/*    font-weight: 500;*/
+/*    border: none;*/
+/*    background: none;*/
+/*    color: #898989;*/
+/*    margin-left: 280px;*/
+/*    position: relative;*/
+/*    bottom: 25px;*/
+/*    left: 30px;*/
+/*}*/
+/*.registratsiya:hover{*/
+/*    border-bottom: 3px solid #00b533;*/
+/*    text-decoration: none;*/
+/*    color: #898989;*/
+/*}*/
+.logo{
+    margin-left: 200px;
+    margin-top: -20px;
+}
+.subtract-img{
+    width: 20px;
+    height: 3px;
+    border-radius: 60px;
+    background-color: black;
+}
+.subtract-img2{
+    width: 30px;
+    height: 3px;
+    border-radius: 60px;
+    background-color: black;
+    margin-left: -5px;
+    margin-top: 3px;
+}
+.subtract-img3{
+    width: 20px;
+    height: 3px;
+    border-radius: 60px;
+    background-color: black;
+    position: relative;
+    top: 3px;
+}
+.subtract a{
+    color: black;
+    font-weight: bold;
+
+}
+.subtract:hover a{
+    color: rgba(0, 0, 0, 0.651);
+    text-decoration: none;
+}
+.s{
+    position: relative;
+    right: 35px;
+    top: 18px;
+}
+.subtract{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.header-a{
+    color: #898989;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.headera{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.header-a:hover{
+    border-bottom: 3px solid #00b533;
+    color: #898989;
+}
+.header-a3{
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.header-a3 img{
+    position: relative;
+    right: 5px;
+}
+.header-a33{
+    margin-top: 70px;
+}
+.header-a3:hover{
+    color: rgba(0, 0, 0, 0.745);
+    text-decoration: none;
+}
